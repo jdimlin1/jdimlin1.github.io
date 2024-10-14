@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', sans-serif;
+    background-color: rgb(200, 200, 200);
+}
+
+.navbar {
+    background-color: rgb(20, 20, 20);
+    padding: 15px 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+#profilePicture {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border: 2px solid white;
+}
+
+.logo span {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: pink;
+}
+
+.fab.fa-linkedin {
+    font-size: 18px;
+    color: white;
+}
+
+.fab.fa-linkedin:hover {
+    color: pink;
+}
+
+.header-container{
+    background-color: rgb(100,100,100);
+    padding-top: 5%;
+    padding-bottom: 5px;
+    padding-left: 5%;
+    border-radius: 5px;
+    display: flex;
+}
+
+#main-picture{
+    border-radius: 100%;
+    width: 20%;
+}
